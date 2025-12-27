@@ -34,7 +34,7 @@ const RegistrationForm = () => {
     setLoading(true);
     
     try {
-      await axios.post('http://localhost:3000/register', {
+      await axios.post('http://192.168.29.117:3000/register', {
         name: formData.name,
         email: formData.email,
         password: formData.password,
@@ -68,8 +68,12 @@ const RegistrationForm = () => {
 
   return(
     <div className="container-fluid vh-100" style={{
-      background: 'linear-gradient(270deg,rgb(71, 205, 147),rgb(57, 195, 195),rgb(132, 203, 140))',
-      backgroundSize: '500% 500%',
+      minHeight: "100vh",
+    width: "100vw",
+    background: "linear-gradient(270deg, rgb(71, 205, 147), rgb(57, 195, 195), rgb(132, 203, 140))",
+    backgroundSize: "500% 500%",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
 
     }}>
       <div className="container h-100">
