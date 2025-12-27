@@ -67,10 +67,10 @@ const RegistrationForm = () => {
   }
 
   return(
-    <div className="container-fluid" style={{
+    <div className="container-fluid d-flex justify-content-center align-items-center" style={{
       minHeight: "100vh",
     width: "100vw",
-    background: "linear-gradient(270deg, rgb(71, 205, 147), rgb(57, 195, 195), rgb(132, 203, 140))",
+    background: "linear-gradient(270deg, rgb(70, 207, 147), rgb(43, 169, 140), rgb(89, 204, 103))",
     backgroundSize: "500% 500%",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
