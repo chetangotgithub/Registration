@@ -67,7 +67,7 @@ const RegistrationForm = () => {
   }
 
   return(
-    <div className="container-fluid vh-100" style={{
+    <div className="container-fluid" style={{
       minHeight: "100vh",
     width: "100vw",
     background: "linear-gradient(270deg, rgb(71, 205, 147), rgb(57, 195, 195), rgb(132, 203, 140))",
